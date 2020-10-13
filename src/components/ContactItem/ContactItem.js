@@ -1,11 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { ContactItemText } from "./ContactItemText";
 
 export const ContactItem = ({ icon, children }) => {
   return (
-    <ContactItemText>
+    <span>
       <FontAwesomeIcon icon={icon} /> {children}
-    </ContactItemText>
+    </span>
   );
 };
