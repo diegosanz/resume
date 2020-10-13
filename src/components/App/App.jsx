@@ -1,17 +1,17 @@
 import React from "react";
-import { ContactItem } from "../ContactItem/ContactItem";
-import { MainTitle } from "../Title/MainTitle";
-import { Page } from "./../Page/Page";
+import { ContactItem } from "../ui/ContactItem/ContactItem";
+import { MainTitle } from "../ui/Title/MainTitle";
+import { Sheet } from "../ui/Sheet/Sheet";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
     <>
-      <Page>
+      <Sheet>
         <MainTitle>Diego Sanz</MainTitle>
         <ContactItem icon={faMobileAlt}>666 555 333</ContactItem>
-      </Page>
-      <Page>Página 2</Page>
+      </Sheet>
+      <Sheet>Página 2</Sheet>
     </>
   );
 }
