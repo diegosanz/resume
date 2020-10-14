@@ -1,10 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import styled from "styled-components";
+
+const Style = styled.span`
+  margin-right: 1em;
+`;
 
 export const ContactItem = ({ icon, children }) => {
   return (
-    <span>
+    <Style>
       <FontAwesomeIcon icon={icon} /> {children}
-    </span>
+    </Style>
   );
 };
