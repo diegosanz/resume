@@ -5,7 +5,11 @@ import { ContactItem } from "../ui/ContactItem";
 export const ContactGithub = () => {
   return (
     <ContactItem icon={faGithubAlt}>
-      <a href="https://github.com/diegosanz" target="_blank">
+      <a
+        href="https://github.com/diegosanz"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         github.com/diegosanz
       </a>
     </ContactItem>
