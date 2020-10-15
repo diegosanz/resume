@@ -1,18 +1,19 @@
 import React from "react";
 import { DetailedList } from "../ui/DetailedList";
-import { DetailedListItem } from "../ui/DetailedListItem";
 import { DetailedListTitle } from "../ui/DetailedListTitle";
+import { ExperienceAytoSoria1 } from "./ExperiencieAytoSoria1";
+import { ExperienceAytoSoria2 } from "./ExperiencieAytoSoria2";
+import { ExperienceCajaRural } from "./ExperiencieCajaRural";
+import { ExperienceHiberus } from "./ExperiencieHiberus";
 
 export const Experiences = () => {
   return (
     <DetailedList>
       <DetailedListTitle>Experiencia</DetailedListTitle>
-      <DetailedListItem
-        date="Enero 2018 - Actualidad"
-        company="Hiberus"
-        location="Zaragoza"
-        job="Developer leader"
-      ></DetailedListItem>
+      <ExperienceHiberus />
+      <ExperienceCajaRural />
+      <ExperienceAytoSoria2 />
+      <ExperienceAytoSoria1 />
     </DetailedList>
   );
 };
