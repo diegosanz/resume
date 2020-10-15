@@ -5,13 +5,26 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styled from "styled-components";
+import { ArticleTitle } from "./ArticleTitle";
+import { ArticleSubtitle } from "./ArticleSubtitle";
 
 const Style = styled.article`
+  border-bottom: 2px dashed lightgrey;
+  margin: 0 0 1rem 0;
+  padding: 0 0 0.5rem 0;
+
   .meta-info {
     display: flex;
 
     &__items {
-      flex-grow: 1;
+      font-size: 0.75rem;
+
+      &.m-date {
+        flex-grow: 1;
+      }
+      &.m-location {
+        min-width: 200px;
+      }
     }
   }
 `;
@@ -25,19 +38,23 @@ export const DetailedListItem = ({
 }) => {
   return (
     <Style>
+      <ArticleTitle>
+        {job}
+        <ArticleSubtitle>{company}</ArticleSubtitle>
+      </ArticleTitle>
       <div className="meta-info">
-        <div className="meta-info__items">
+        <div className="meta-info__items m-date">
           <FontAwesomeIcon icon={faCalendarAlt} />
+          &nbsp;
           {date}
         </div>
-        <div className="meta-info__items">
+        <div className="meta-info__items m-location">
           <FontAwesomeIcon icon={faMapMarkerAlt} />
+          &nbsp;
           {location}
         </div>
       </div>
-      <h3>{job}</h3>
-      <h4>{company}</h4>
-      {children ? <p>{children}</p> : ""}
+      {children ? <div>{children}</div> : ""}
     </Style>
   );
 };
