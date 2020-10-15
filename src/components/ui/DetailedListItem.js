@@ -10,8 +10,6 @@ import { ArticleSubtitle } from "./ArticleSubtitle";
 
 const Style = styled.article`
   border-bottom: 2px dashed lightgrey;
-  margin: 0 0 1rem 0;
-  padding: 0 0 0.5rem 0;
 
   .meta-info {
     display: flex;
@@ -20,12 +18,13 @@ const Style = styled.article`
       font-size: 0.75rem;
 
       &.m-date {
-        flex-grow: 1;
-      }
-      &.m-location {
-        min-width: 200px;
+        min-width: 220px;
       }
     }
+  }
+
+  .desc {
+    font-size: 0.85rem;
   }
 `;
 
@@ -54,7 +53,7 @@ export const DetailedListItem = ({
           {location}
         </div>
       </div>
-      {children ? <div>{children}</div> : ""}
+      {children ? <div className="desc">{children}</div> : ""}
     </Style>
   );
 };
