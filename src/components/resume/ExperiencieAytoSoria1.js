@@ -5,9 +5,9 @@ export const ExperienceAytoSoria1 = () => {
   return (
     <DetailedListItem
       date="Agosto 2011 – Marzo 2012"
-      company="Ayuntamiento de Soria"
+      subtitle="Ayuntamiento de Soria"
       location="Soria"
-      job="Desarrollador web"
+      title="Desarrollador web"
     >
       <p>
         Programación de una Intranet en PHP y jQuery para los empleados del

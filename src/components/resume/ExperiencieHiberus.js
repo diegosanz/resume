@@ -5,9 +5,9 @@ export const ExperienceHiberus = () => {
   return (
     <DetailedListItem
       date="Febrero 2018 - Actualidad"
-      company="Hiberus"
+      subtitle="Hiberus"
       location="Zaragoza"
-      job="Líder de proyecto"
+      title="Líder de proyecto"
     >
       <p>
         Empecé como desarrollador Fullstack en Typescript en proyectos como{" "}

@@ -5,9 +5,9 @@ export const ExperienceCajaRural = () => {
   return (
     <DetailedListItem
       date="Enero 2016 - Enero 2018"
-      company="Caja Rural de Soria"
+      subtitle="Caja Rural de Soria"
       location="Soria"
-      job="Desarrollador, BBDD admin. y supervisor de proyectos"
+      title="Desarrollador, BBDD admin. y supervisor de proyectos"
     >
       <p>
         Encargado del desarrollo con Node.js de un portal para la visualización

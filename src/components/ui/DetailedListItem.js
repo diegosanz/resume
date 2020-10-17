@@ -31,15 +31,15 @@ const Style = styled.article`
 export const DetailedListItem = ({
   date,
   location,
-  job,
-  company,
+  title,
+  subtitle,
   children,
 }) => {
   return (
     <Style>
       <ArticleTitle>
-        {job}
-        <ArticleSubtitle>{company}</ArticleSubtitle>
+        {title}
+        <ArticleSubtitle>{subtitle}</ArticleSubtitle>
       </ArticleTitle>
       <div className="meta-info">
         <div className="meta-info__items m-date">
