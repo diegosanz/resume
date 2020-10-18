@@ -11,6 +11,7 @@ import { ContactGithub } from "./ContactGithub";
 import { ContactLocation } from "./ContactLocation";
 import { ContactMail } from "./ContactMail";
 import { ContactPhone } from "./ContactPhone";
+import { Education } from "./Education";
 import { Experiences } from "./Experiences";
 
 export const FirstPage = () => {
@@ -22,15 +23,16 @@ export const FirstPage = () => {
           <MainSubtitle>Fullstack developer</MainSubtitle>
         </MainTitle>
         <ContactSection>
-          <ContactMail></ContactMail>
-          <ContactPhone></ContactPhone>
-          <ContactLocation></ContactLocation>
-          <ContactGithub></ContactGithub>
+          <ContactMail />
+          <ContactPhone />
+          <ContactLocation />
+          <ContactGithub />
         </ContactSection>
       </Header>
       <MainContent>
         <MainSection>
-          <Experiences></Experiences>
+          <Experiences />
+          <Education />
         </MainSection>
         <MainAside></MainAside>
       </MainContent>
