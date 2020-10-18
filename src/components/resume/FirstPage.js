@@ -7,6 +7,7 @@ import { MainSection } from "../ui/MainSection";
 import { MainSubtitle } from "../ui/MainSubtitle";
 import { MainTitle } from "../ui/MainTitle";
 import { Sheet } from "../ui/Sheet";
+import { Skills } from "./Skills";
 import { ContactGithub } from "./ContactGithub";
 import { ContactLocation } from "./ContactLocation";
 import { ContactMail } from "./ContactMail";
@@ -34,7 +35,9 @@ export const FirstPage = () => {
           <Experiences />
           <Education />
         </MainSection>
-        <MainAside></MainAside>
+        <MainAside>
+          <Skills />
+        </MainAside>
       </MainContent>
     </Sheet>
   );
