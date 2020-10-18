@@ -9,7 +9,7 @@ const Style = styled.span`
 export const ContactItem = ({ icon, children }) => {
   return (
     <Style>
-      <FontAwesomeIcon icon={icon} /> {children}
+      <FontAwesomeIcon icon={icon} fixedWidth /> {children}
     </Style>
   );
 };
