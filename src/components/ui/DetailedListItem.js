@@ -25,6 +25,7 @@ const Style = styled.article`
 
   .desc {
     font-size: 0.85rem;
+    margin: 1rem 0;
   }
 `;
 
@@ -53,7 +54,7 @@ export const DetailedListItem = ({
           {location}
         </div>
       </div>
-      {children ? <div className="desc">{children}</div> : ""}
+      <div className="desc">{children}</div>
     </Style>
   );
 };
