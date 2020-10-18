@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App/App";
-import * as serviceWorker from "./serviceWorker";
-import "../node_modules/paper-css/paper.min.css";
-import { NormalizeCss } from "./components/Normalize/NormalizeCss";
 import { ThemeProvider } from "styled-components";
 import { mainTheme } from "./constants/mainTheme";
+import { BaseStyles } from "./components/ui/BaseStyles";
+import * as serviceWorker from "./serviceWorker";
+import "../node_modules/paper-css/paper.min.css";
+import "../node_modules/normalize.css/normalize.css";
+import "./styles/base.styles.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <NormalizeCss />
     <ThemeProvider theme={mainTheme}>
+      <BaseStyles />
       <App />
     </ThemeProvider>
   </React.StrictMode>,
