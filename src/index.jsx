@@ -7,6 +7,7 @@ import { BaseStyles } from "./components/ui/BaseStyles";
 import * as serviceWorker from "./serviceWorker";
 import "../node_modules/paper-css/paper.min.css";
 import "../node_modules/normalize.css/normalize.css";
+import "./styles/base.styles.scss";
 
 ReactDOM.render(
   <React.StrictMode>
