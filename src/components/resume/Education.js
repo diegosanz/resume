@@ -8,7 +8,7 @@ import { EducationEsi } from "./EducationEsi";
 export const Education = () => {
   return (
     <DetailedList>
-      <DetailedListTitle>Education</DetailedListTitle>
+      <DetailedListTitle>Educación</DetailedListTitle>
       <EducationDaw />
       <EducationAsi />
       <EducationEsi />
