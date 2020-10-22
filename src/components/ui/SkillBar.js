@@ -8,7 +8,7 @@ export const SkillBar = styled.div`
   border: 2px solid ${(props) => props.mainColor || "black"};
   position: relative;
   font-weight: bold;
-  margin: 0.2rem;
+  margin: 0.2rem 0;
 
   &::before {
     content: "${(props) => props.children}";
