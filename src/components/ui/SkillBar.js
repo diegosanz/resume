@@ -21,6 +21,7 @@ export const SkillBar = styled.div`
     z-index: 1;
     overflow: hidden;
     width: ${(props) => props.percentage || 0}%;
+    white-space: nowrap;
     /* FIXME: no bold font */
     font-weight: bold;
 
