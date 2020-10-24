@@ -8,6 +8,8 @@ import { SkillAngular } from "./SkillAngular";
 import { SkillReact } from "./SkillReact";
 import { SkillVue } from "./SkillVue";
 import { SkillSql } from "./SkillSql";
+import { SkillNestJs } from "./SkillNestJs";
+import { SkillExpress } from "./SkillExpress";
 
 export const Skills = () => {
   return (
@@ -21,6 +23,9 @@ export const Skills = () => {
       <SkillAngular />
       <SkillReact />
       <SkillVue />
+      <br />
+      <SkillNestJs />
+      <SkillExpress />
     </DetailedList>
   );
 };
