@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-const padding = "0.25rem 0 0.25rem 1rem";
+const padding = "0.25rem 0.5rem";
 
 export const SkillBar = styled.div`
   width: 100%;
   padding: ${padding};
-  border: 2px solid ${(props) => props.mainColor || "black"};
   position: relative;
   font-weight: bold;
   margin: 0.2rem 0;
+  font-family: ${(props) => props.theme.fontAlt};
 
   &::before {
     content: "${(props) => props.children}";
@@ -39,11 +39,10 @@ export const SkillBar = styled.div`
     background-color: ${(props) => props.mainColor || "black"};
     overflow: hidden;
 
-    /* HACK: there are some glitches when it is printed as a pdf between the background/box-shadow and the parent border, so we expand it one pixel at the top, left and bottom side */
-    top: -1px;
-    left: -1px;
-    height: calc(100% + 2px); // 2px => 1px top + 1px bottom;
-    width: calc(${(props) => props.percentage || 0}% + 1px);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: ${(props) => props.percentage}%;
 
     @media print {
       /* HACK: When printing, for browsers with config "Print Background colours and images" turned off */
