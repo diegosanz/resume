@@ -5,8 +5,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styled from "styled-components";
-import { ArticleTitle } from "./ArticleTitle";
-import { ArticleSubtitle } from "./ArticleSubtitle";
+import { SectionTitle } from "./SectionTitle";
+import { SectionSubtitle } from "./SectionSubtitle";
 
 const Style = styled.article`
   border-bottom: 2px dashed lightgrey;
@@ -38,10 +38,10 @@ export const DetailedListItem = ({
 }) => {
   return (
     <Style>
-      <ArticleTitle>
+      <SectionTitle>
         {title}
-        <ArticleSubtitle>{subtitle}</ArticleSubtitle>
-      </ArticleTitle>
+        <SectionSubtitle>{subtitle}</SectionSubtitle>
+      </SectionTitle>
       <div className="meta-info">
         <div className="meta-info__items m-date">
           <FontAwesomeIcon icon={faCalendarAlt} />
