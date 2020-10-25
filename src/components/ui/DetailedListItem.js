@@ -28,6 +28,7 @@ const Style = styled.article`
 
     p {
       margin: 0.5rem 0;
+      text-align: justify;
     }
   }
 `;
