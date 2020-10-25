@@ -8,10 +8,11 @@ import styled from "styled-components";
 import { SectionTitle } from "./SectionTitle";
 
 const Style = styled.article`
-  border-bottom: 2px dashed lightgrey;
+  margin-bottom: 1rem;
 
   .meta-info {
     display: flex;
+    margin: 0.5rem 0;
 
     &__items {
       font-size: 0.75rem;
@@ -24,7 +25,10 @@ const Style = styled.article`
 
   .desc {
     font-size: 0.85rem;
-    margin: 1rem 0;
+
+    p {
+      margin: 0.5rem 0;
+    }
   }
 `;
 
