@@ -15,6 +15,7 @@ import { ContactPhone } from "./ContactPhone";
 import { Education } from "./Education";
 import { Experiences } from "./Experiences";
 import { ContactLinkedin } from "./ContactLinkedin";
+import { MyIntro } from "./MyIntro";
 
 export const FirstPage = () => {
   return (
@@ -24,6 +25,7 @@ export const FirstPage = () => {
           Diego Sanz
           <MainSubtitle>Fullstack developer</MainSubtitle>
         </MainTitle>
+
         <ContactSection>
           <ContactMail />
           <ContactPhone />
@@ -32,15 +34,20 @@ export const FirstPage = () => {
           <ContactLinkedin />
         </ContactSection>
       </Header>
+
+      <MyIntro />
+
       <StyledArticle>
         <StyledSection>
           <Experiences />
         </StyledSection>
       </StyledArticle>
+
       <StyledArticle>
         <StyledSection>
           <Education />
         </StyledSection>
+
         <StyledAside>
           <Skills />
         </StyledAside>
