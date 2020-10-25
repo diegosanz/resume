@@ -14,6 +14,7 @@ import { ContactMail } from "./ContactMail";
 import { ContactPhone } from "./ContactPhone";
 import { Education } from "./Education";
 import { Experiences } from "./Experiences";
+import { ContactLinkedin } from "./ContactLinkedin";
 
 export const FirstPage = () => {
   return (
@@ -28,6 +29,7 @@ export const FirstPage = () => {
           <ContactPhone />
           <ContactLocation />
           <ContactGithub />
+          <ContactLinkedin />
         </ContactSection>
       </Header>
       <StyledArticle>
