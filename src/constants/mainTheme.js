@@ -1,4 +1,4 @@
 export const mainTheme = {
-  font: '"Roboto", sans-serif',
-  fontAlt: '"Roboto Slab", serif',
+  font: "'Roboto Condensed', sans-serif",
+  fontAlt: "'Roboto Slab', serif",
 };
