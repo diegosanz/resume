@@ -17,8 +17,8 @@ export const ExperienceAytoSoria2 = () => {
         >
           Soria.es
         </a>
-        , y desarrollo de una aplicación de gestión del cementerio de Soria que
-        con AngularJS, Leafet y API en PHP con Codeigniter.
+        , y desarrollo de una aplicación de gestión del cementerio de Soria con
+        AngularJS, Leafet y API en PHP con Codeigniter.
       </p>
     </DetailedListItem>
   );
