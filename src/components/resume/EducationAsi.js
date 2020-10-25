@@ -5,8 +5,7 @@ export const EducationAsi = () => {
   return (
     <DetailedListItem
       date="Graduado en 2011"
-      subtitle="IES Virgen del Espino"
-      location="Soria"
+      location="IES Virgen del Espino, Soria"
       title="Técnico Superior en Administración de Sistemas Informáticos"
     />
   );

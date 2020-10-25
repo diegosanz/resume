@@ -5,8 +5,7 @@ export const EducationEsi = () => {
   return (
     <DetailedListItem
       date="Graduado en 2009"
-      subtitle="IES Virgen del Espino"
-      location="Soria"
+      location="IES Virgen del Espino, Soria"
       title="Técnico en Explotación de Sistemas Informáticos"
     />
   );

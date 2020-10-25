@@ -5,8 +5,7 @@ export const ExperienceAytoSoria2 = () => {
   return (
     <DetailedListItem
       date="Octubre 2014 – Octubre 2015"
-      subtitle="Ayuntamiento de Soria"
-      location="Soria"
+      location="Ayuntamiento de Soria, Soria"
       title="Desarrollador web"
     >
       <p>

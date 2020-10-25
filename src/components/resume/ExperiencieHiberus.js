@@ -5,8 +5,7 @@ export const ExperienceHiberus = () => {
   return (
     <DetailedListItem
       date="Febrero 2018 - Actualidad"
-      subtitle="Hiberus"
-      location="Zaragoza"
+      location="Hiberus, Zaragoza"
       title="Líder de proyecto"
     >
       <p>
