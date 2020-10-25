@@ -41,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "hygen": "^6.0.4",
-    "raw-loader": "^4.0.2"
+    "hygen": "^6.0.4"
   }
 }
