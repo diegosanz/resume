@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-export const MainSection = styled.main`
+export const StyledSection = styled.section`
   flex-grow: 1;
 `;

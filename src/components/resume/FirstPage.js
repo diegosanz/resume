@@ -1,9 +1,9 @@
 import React from "react";
 import { ContactSection } from "../ui/ContactSection";
 import { Header } from "../ui/Header";
-import { MainAside } from "../ui/MainAside";
-import { MainContent } from "../ui/MainContent";
-import { MainSection } from "../ui/MainSection";
+import { StyledAside } from "../ui/StyledAside";
+import { StyledArticle } from "../ui/StyledContent";
+import { StyledSection } from "../ui/StyledSection";
 import { MainSubtitle } from "../ui/MainSubtitle";
 import { MainTitle } from "../ui/MainTitle";
 import { Sheet } from "../ui/Sheet";
@@ -30,15 +30,19 @@ export const FirstPage = () => {
           <ContactGithub />
         </ContactSection>
       </Header>
-      <MainContent>
-        <MainSection>
+      <StyledArticle>
+        <StyledSection>
           <Experiences />
+        </StyledSection>
+      </StyledArticle>
+      <StyledArticle>
+        <StyledSection>
           <Education />
-        </MainSection>
-        <MainAside>
+        </StyledSection>
+        <StyledAside>
           <Skills />
-        </MainAside>
-      </MainContent>
+        </StyledAside>
+      </StyledArticle>
     </Sheet>
   );
 };
