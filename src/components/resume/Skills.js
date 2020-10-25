@@ -10,22 +10,27 @@ import { SkillVue } from "./SkillVue";
 import { SkillSql } from "./SkillSql";
 import { SkillNestJs } from "./SkillNestJs";
 import { SkillExpress } from "./SkillExpress";
+import { SkillSection } from "../ui/SkillSection";
 
 export const Skills = () => {
   return (
     <DetailedList>
       <DetailedListTitle>Habilidades</DetailedListTitle>
-      <SkillTypescript />
-      <SkillJavascript />
-      <SkillSass />
-      <SkillSql />
-      <br />
-      <SkillAngular />
-      <SkillReact />
-      <SkillVue />
-      <br />
-      <SkillNestJs />
-      <SkillExpress />
+      <SkillSection>
+        <SkillTypescript />
+        <SkillJavascript />
+        <SkillSass />
+        <SkillSql />
+      </SkillSection>
+      <SkillSection>
+        <SkillAngular />
+        <SkillReact />
+        <SkillVue />
+      </SkillSection>
+      <SkillSection>
+        <SkillNestJs />
+        <SkillExpress />
+      </SkillSection>
     </DetailedList>
   );
 };

@@ -5,8 +5,7 @@ export const ExperienceAytoSoria2 = () => {
   return (
     <DetailedListItem
       date="Octubre 2014 – Octubre 2015"
-      subtitle="Ayuntamiento de Soria"
-      location="Soria"
+      location="Ayuntamiento de Soria, Soria"
       title="Desarrollador web"
     >
       <p>
@@ -16,7 +15,7 @@ export const ExperienceAytoSoria2 = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          soria.es
+          Soria.es
         </a>
         , y desarrollo de una aplicación de gestión del cementerio de Soria que
         con AngularJS, Leafet y API en PHP con Codeigniter.

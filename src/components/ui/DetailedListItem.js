@@ -5,14 +5,14 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styled from "styled-components";
-import { ArticleTitle } from "./ArticleTitle";
-import { ArticleSubtitle } from "./ArticleSubtitle";
+import { SectionTitle } from "./SectionTitle";
 
 const Style = styled.article`
-  border-bottom: 2px dashed lightgrey;
+  margin-bottom: 1rem;
 
   .meta-info {
     display: flex;
+    margin: 0.5rem 0;
 
     &__items {
       font-size: 0.75rem;
@@ -25,23 +25,17 @@ const Style = styled.article`
 
   .desc {
     font-size: 0.85rem;
-    margin: 1rem 0;
+
+    p {
+      margin: 0.5rem 0;
+    }
   }
 `;
 
-export const DetailedListItem = ({
-  date,
-  location,
-  title,
-  subtitle,
-  children,
-}) => {
+export const DetailedListItem = ({ date, location, title, children }) => {
   return (
     <Style>
-      <ArticleTitle>
-        {title}
-        <ArticleSubtitle>{subtitle}</ArticleSubtitle>
-      </ArticleTitle>
+      <SectionTitle>{title}</SectionTitle>
       <div className="meta-info">
         <div className="meta-info__items m-date">
           <FontAwesomeIcon icon={faCalendarAlt} />
