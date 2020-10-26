@@ -1,5 +1,6 @@
 import {
   faCalendarAlt,
+  faCode,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +19,13 @@ const Style = styled.article`
       font-size: 0.75rem;
 
       &.m-date {
-        min-width: 220px;
+        min-width: 200px;
+      }
+
+      &.m-technologies {
+        flex-grow: 1;
+        text-align: right;
+        font-family: ${(props) => props.theme.fontMono};
       }
     }
   }
@@ -33,7 +40,13 @@ const Style = styled.article`
   }
 `;
 
-export const DetailedListItem = ({ date, location, title, children }) => {
+export const DetailedListItem = ({
+  date,
+  location,
+  title,
+  children,
+  technologies,
+}) => {
   return (
     <Style>
       <SectionTitle>{title}</SectionTitle>
@@ -48,6 +61,15 @@ export const DetailedListItem = ({ date, location, title, children }) => {
           &nbsp;
           {location}
         </div>
+        {technologies ? (
+          <div className="meta-info__items m-technologies">
+            <FontAwesomeIcon icon={faCode} />
+            &nbsp;
+            {technologies}
+          </div>
+        ) : (
+          false
+        )}
       </div>
       <div className="desc">{children}</div>
     </Style>

@@ -7,6 +7,7 @@ export const ExperienceAytoSoria2 = () => {
       date="Octubre 2014 – Octubre 2015"
       location="Ayuntamiento de Soria, Soria"
       title="Desarrollador web"
+      technologies="AngularJS, Leaflet, Codeigniter, JS, PHP"
     >
       <p>
         Administración de la Web ofcial del Ayuntamiento,&nbsp;
@@ -18,7 +19,7 @@ export const ExperienceAytoSoria2 = () => {
           Soria.es
         </a>
         , y desarrollo de una aplicación de gestión del cementerio de Soria con
-        AngularJS, Leafet y API en PHP con Codeigniter.
+        AngularJS, Leaflet y API en PHP con Codeigniter.
       </p>
     </DetailedListItem>
   );
