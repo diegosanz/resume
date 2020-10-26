@@ -7,6 +7,7 @@ export const ExperienceAytoSoria1 = () => {
       date="Agosto 2011 – Marzo 2012"
       location="Ayuntamiento de Soria, Soria"
       title="Desarrollador web"
+      technologies="jQuery, Oracle, SQL, PHP"
     >
       <p>
         Programación de una Intranet en PHP y jQuery para los empleados del
