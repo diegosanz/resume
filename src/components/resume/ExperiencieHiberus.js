@@ -7,7 +7,7 @@ export const ExperienceHiberus = () => {
       date="Febrero 2018 - Actualidad"
       location="Hiberus, Zaragoza"
       title="Desarrollador fullstack y líder de proyecto"
-      technologies="Angular, React, NestJS, Express, TS"
+      technologies="Angular, React, Vue, NestJS, Express, TS"
     >
       <p>
         Empecé como desarrollador Fullstack en Typescript en proyectos como{" "}
