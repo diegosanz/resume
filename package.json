@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "hygen": "hygen"
+    "hygen": "hygen",
+    "postinstall": "echo '[CREATING ENVIRONMENT] \n Insert private data for showing it on the resume:' && hygen env new \n\n\n "
   },
   "eslintConfig": {
     "extends": "react-app"
