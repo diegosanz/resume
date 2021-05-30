@@ -3,7 +3,7 @@ import { SkillBar } from "../ui/SkillBar";
 
 export const SkillExpress = () => {
   return (
-    <SkillBar percentage="65" mainColor="#EEE" textColor="#444">
+    <SkillBar percentage="69" mainColor="#EEE" textColor="#444">
       Express
     </SkillBar>
   );

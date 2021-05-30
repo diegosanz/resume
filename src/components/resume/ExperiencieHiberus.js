@@ -7,26 +7,14 @@ export const ExperienceHiberus = () => {
       date="Febrero 2018 - Actualidad"
       location="Hiberus, Zaragoza"
       title="Desarrollador fullstack y líder de proyecto"
-      technologies="Angular, React, Vue, NestJS, Express, TS"
+      technologies="React, Vue, Angular, NestJS, Express, JS, TS"
     >
       <p>
-        Empecé como desarrollador Fullstack en Typescript en proyectos como{" "}
-        <a
-          href="https://www.eduardolosilla.es/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Eduardolosilla.es
-        </a>
-        , kioskos interactivos para HMY y CocaCola Francia, o máquinas
-        expendedoras de Azkoyen.
-      </p>
-      <p>
-        En Marzo de 2019 pasé a liderar proyectos en Hiberus Industrial
-        Solutions. Entre los proyectos más destacados está la gestión del
-        tráfico y la aplicación de control de Vehículos Guiados Autónomos (AGV),
-        aplicaciones para la validación de la materia prima, trazabilidad de
-        maquinaria y gestión documental.
+        Desarrollador Fullstack con diferentes frameworks para Web y Node con
+        Nest y Express para backend. Formé parte en equipos Agile para clientes
+        como Inditex, Cocacola Francia, Vodafone y RTVE. Además lideré en el
+        apartado tecnológico la transformación digital de varias empresas del
+        sector del automóvil.
       </p>
     </DetailedListItem>
   );

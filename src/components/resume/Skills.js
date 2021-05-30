@@ -23,8 +23,8 @@ export const Skills = () => {
         <SkillSql />
       </SkillSection>
       <SkillSection>
-        <SkillAngular />
         <SkillReact />
+        <SkillAngular />
         <SkillVue />
       </SkillSection>
       <SkillSection>
