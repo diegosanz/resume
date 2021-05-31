@@ -5,15 +5,10 @@ export const MyIntro = () => {
   return (
     <Intro>
       <p>
-        Soy un desarrollador Full Stack con gran interés en la calidad del
-        código y en aplicar las mejores metodologías para lograr hacer el
-        producto posible.
-      </p>
-
-      <p>
-        He dirigido proyectos de gran envergadura como aplicaciones industriales
-        para CEFA y he participado en proyectos para grandes clientes como
-        kioskos interactivos para Coca-Cola Francia o Vodafone.
+        Soy un desarrollador fullstack con una amplía experiencia en diferentes
+        frameworks, metodologías y tecnologías. He participado en proyectos de
+        todo tipo para grandes clientes internacionales. Me gusta afrontar
+        nuevos retos, aprendiendo y mejorando continuamente en el proceso.
       </p>
     </Intro>
   );
